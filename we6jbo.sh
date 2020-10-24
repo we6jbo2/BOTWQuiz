@@ -58,6 +58,7 @@ main() {
 #      lein run ../BOTWQuiz-config/ssh-nao-config-we6jbo2.edn
       pwd
       cp ~/BOTWcode/BOTWQuiz.py ~/BOTWQuiz/BOTWQuiz.py
+      cd ~/BOTWQuiz
       python3 BOTWQuiz.py
       echo Sleeping ...
       sleep 1200
